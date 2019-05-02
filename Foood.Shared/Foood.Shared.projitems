@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>06ee333f-dfcf-4370-9472-afb8302d73ff</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Foood</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)HakawiatInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InternetConnection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)JuiceInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RaiesInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SandwichInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ShorbaInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SlaaaadInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)YoutubeVideo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\1173.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\138744535841.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\3740-drink-fat-burning.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\640-food-cookies-cream-dessert-l.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\822804500d8481df265c99c0d35d3276.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\aaaa.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\b7f250ece23386642bfdb049a5c0c0dc.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\13282839343972.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\301_large.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\bastry.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\bsbosa.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\helba.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\image-1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\images (2).jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\k3b.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\kasat.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\nutssss.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\slllll.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Halawiat\um-ali.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\images %281%29.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\0Khoushaf02.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\4e3ba8345d.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\71e3586d2f3da157b61c2509426026ad.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\900x450_uploads,2015,07,08,559c92fce16b3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\@128753.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\frawla.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\khoshaf.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\krkdeh.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\sa7lb.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\sddd.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\shaam.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\juice\sobia.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mk.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mktoba\7lwiat.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mktoba\7sa2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mktoba\juice.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mktoba\r2es.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mktoba\salad.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\mktoba\sand.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\dani.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\e.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\kof.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\kosh.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\koshary.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\mhmr.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\mkoo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\mkrmsh.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\moo.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\ss.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\sws.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Raiesy\zbadi.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\171812.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\347396409c.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\85574.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\btats.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\de.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\eee.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\khiar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\m2lia.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\masria.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\re.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\salad_t_c_l.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Salad\thomia.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\022112040250ua32ozwo107y.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\13902882069574.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\alex.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\basterma.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\burger.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\ed8169b541fbaf4fdf06f7434209724f.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\f3f19e77dbf060e7d8d508eb9f897688.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\hwawshy.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\sss.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\tost.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\trmiaaa.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Sandwiches\venue_standard_10831_2012202_284216880.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\138744535841.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\3ds.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\5435191492d26.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\7mos.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\fool.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\fool.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\khodar.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\she3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\shrimbo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\shrqqqqq.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\ssssss.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Shorba\xs.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\vd.jpg" />
+  </ItemGroup>
+</Project>
